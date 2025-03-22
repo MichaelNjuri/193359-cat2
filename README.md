@@ -27,5 +27,19 @@
   ### Difference between arrays and linked lists:
 
    1. **Memory allocation**
-   -
-    
+
+   - **Arrays** : It uses contiguous memory allocation ,where elements are stored in successive memory locations. 
+
+   - **Linked Lists** :Use dynamic memory allocation,where each element (node) is stored anywhere in the  memory,Nodes are also    connected by  pointers hence eliminating the need for a fixed size. 
+
+   2.  **Insertion and deletion**
+
+   - **Arrays** : This operations require element shifting hence leading to linear time complexity (O(n)).
+   
+   - **Linked lists** :It is efficient since it only involves pointer adjustments,while middle operations require traversal (O(n)) in order to locate the insertion and deletion points.
+
+   3. **Performance**
+
+   - **Arrays** :Accessing elements is fast due to direct indexing  using their positioning.(O(n)) is used for unsorted arrays and (O(log n)) for sorted arrays using binary search.
+
+   - **Linked lists** : Accessing elements is slow due to sequential traversal which results in linear time complexity(O(n)) 
