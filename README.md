@@ -22,6 +22,8 @@
   5. **Drop Non-Dominant Terms**
   - For combined complexities, retain only the highest term.  
   - **Eg**: 'O(n + n² + log n) → O(n²).'
+  
+ --- 
 
   ## Q2.md
   ### Difference between arrays and linked lists:
@@ -43,3 +45,5 @@
    - **Arrays** :Accessing elements is fast due to direct indexing  using their positioning.(O(n)) is used for unsorted arrays and (O(log n)) for sorted arrays using binary search.
 
    - **Linked lists** : Accessing elements is slow due to sequential traversal which results in linear time complexity(O(n)) 
+
+   - In conclusion, arrays offer quick random access due to contiguous memory allocation, while linked lists offer more efficient insertions and deletions at the beginning or when working with dynamic data where frequent modifications are needed.
