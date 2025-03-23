@@ -66,10 +66,10 @@ public class Linked_List {
         list.insertAtEnd(30);
 
         System.out.println("Linked List after insertions:");
-        list.printList(); // Expected: 20 -> 10 -> 30 -> null
+        list.printList();
 
         list.deleteFromBeginning();
         System.out.println("Linked List after deleting first node:");
-        list.printList(); // Expected: 10 -> 30 -> null
+        list.printList(); 
     }
 }
